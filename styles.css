@@ -1,0 +1,37 @@
+
+:root {
+  --bg: #f7f9fc;
+  --fg: #101828;
+  --primary: #1f6feb;
+  --primary-hover: #1158c7;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+h1 { margin: 0 0 1rem; }
+p { margin: 0 0 2rem; }
+
+.btn {
+  appearance: none;
+  border: none;
+  background: var(--primary);
+  color: #fff;
+  padding: .75rem 1.25rem;
+  border-radius: .6rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
